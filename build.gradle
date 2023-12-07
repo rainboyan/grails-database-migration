@@ -64,7 +64,7 @@ dependencies {
     compileOnly "org.springframework.boot:spring-boot-starter-tomcat"
 
     compileOnly "org.grails:grails-boot"
-    compileOnly 'javax.servlet:javax.servlet-api:4.0.1'
+    compileOnly "jakarta.servlet:jakarta.servlet-api:6.0.0"
     compileOnly "org.grails.plugins:hibernate5"
 
     testImplementation "org.springframework.boot:spring-boot-starter-tomcat"
