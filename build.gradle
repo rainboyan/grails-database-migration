@@ -73,8 +73,7 @@ dependencies {
 
     testImplementation "org.grails:grails-test-support"
     testImplementation "org.mockito:mockito-core"
-    testImplementation group: 'com.h2database', name: 'h2', version: '1.4.200'
-
+    testImplementation "com.h2database:h2:2.1.214"
 
     documentation "org.fusesource.jansi:jansi:1.18"
     documentation "com.github.javaparser:javaparser-core:3.15.14"
