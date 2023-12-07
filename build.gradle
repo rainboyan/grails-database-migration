@@ -45,7 +45,7 @@ configurations {
 
 dependencies {
     api "org.liquibase:liquibase-core:$liquibaseVersion"
-    api "org.codehaus.groovy:groovy-sql:$groovyVersion"
+    api "org.apache.groovy:groovy-sql:$groovyVersion"
 
     api("org.liquibase.ext:liquibase-hibernate5:$liquibaseHibernateVersion") {
         exclude group: 'org.hibernate', module: 'hibernate-core'
@@ -78,10 +78,10 @@ dependencies {
 
     documentation "org.fusesource.jansi:jansi:1.18"
     documentation "com.github.javaparser:javaparser-core:3.15.14"
-    documentation "org.codehaus.groovy:groovy:$groovyVersion"
-    documentation "org.codehaus.groovy:groovy:$groovyVersion"
-    documentation "org.codehaus.groovy:groovy-ant:$groovyVersion"
-    documentation "org.codehaus.groovy:groovy-templates:$groovyVersion"
+    documentation "org.apache.groovy:groovy:$groovyVersion"
+    documentation "org.apache.groovy:groovy:$groovyVersion"
+    documentation "org.apache.groovy:groovy-ant:$groovyVersion"
+    documentation "org.apache.groovy:groovy-templates:$groovyVersion"
 }
 
 grailsPublish {
